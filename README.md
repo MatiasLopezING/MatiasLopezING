@@ -92,7 +92,7 @@
 =========================== -->
 <h3 align="center">Connect with me</h3>
 <p align="center">
-  <a href="https://www.linkedin.com/in/matiaslopezing" target="_blank">
+  <a href="https://www.linkedin.com/in/ingmatiaslopez/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
