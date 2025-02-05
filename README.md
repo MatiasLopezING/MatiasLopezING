@@ -95,6 +95,20 @@
 </p>
 
 <!-- ===========================
+         STATS
+=========================== -->
+<div align="center">
+
+## GitHub Stats:
+
+
+[![Matías GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatiasLopezING&show_icons=true&theme=tokyonight&hide_border=true&locale=en)](https://github.com/MatiasLopezING)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MatiasLopezING&theme=material-palenight)](https://github.com/MatiasLopezING)
+
+
+
+<!-- ===========================
          FOOTER
 =========================== -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7B68EE&height=120&section=bottom"/>
