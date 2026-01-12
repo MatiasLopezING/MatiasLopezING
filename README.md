@@ -34,7 +34,7 @@
 
 ---
 
-## Habilidades (inferidas por tus repos)
+## Habilidades 
 
 ### Desarrollo Web
 - **React** (CRA), **React Router**
@@ -57,7 +57,7 @@
 
 ---
 
-## Proyectos destacados (los que más te representan)
+## Proyectos destacados
 
 ### 1) G2 Innovation — Plataforma web (React + Firebase)
 - Repo: https://github.com/MatiasLopezING/G2_INNOVATION  
