@@ -77,15 +77,10 @@
 
 ---
 
-## Stats
+## Actividad
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatiasLopezING&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=MatiasLopezING&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MatiasLopezING&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
+- Perfil: https://github.com/MatiasLopezING
+- Repositorios: https://github.com/MatiasLopezING?tab=repositories
 
 ---
 
