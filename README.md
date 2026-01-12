@@ -1,92 +1,112 @@
 <!-- ===========================
          HEADER
 =========================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7B68EE&height=140&section=header&text=Matias%20Lopez%20%7C%20Computer%20Engineering&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7B68EE&height=140&section=header&text=Matias%20Lopez%20%7C%20Computer%20Engineering%20Student&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 <div align="center">
+  <img src="https://avatars.githubusercontent.com/u/109480516?v=4" width="110" alt="MatiasLopezING avatar"/>
 
-<img src="https://avatars.githubusercontent.com/u/109480516?v=4" width="110" alt="MatiasLopezING avatar"/>
+  <h1>Matías López</h1>
+  <p><b>Estudiante de Ingeniería en Computación (UNLP) · La Plata, AR</b></p>
+  <p>
+    Perfil orientado a ingeniería: <b>software end-to-end</b> (web/backend/datos) y <b>sistemas</b>
+    (arquitectura/diseño digital). Me enfoco en aprender bien los fundamentos, escribir código mantenible y documentar.
+  </p>
 
-<h1>Hola, soy MatiasLopezING</h1>
-<p><b>Estudiante de Ingeniería en Computación (La Plata, AR)</b></p>
+  <a href="https://www.linkedin.com/in/ingmatiaslopez/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/MatiasLopezING">
+    <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
 
-<a href="https://www.linkedin.com/in/ingmatiaslopez/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/MatiasLopezING">
-  <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
+  <br/><br/>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=MatiasLopezING&style=for-the-badge&color=7B68EE" alt="Profile views"/>
-
+  <img src="https://komarev.com/ghpvc/?username=MatiasLopezING&style=for-the-badge&color=7B68EE" alt="Profile views"/>
 </div>
 
 ---
 
-## Sobre mí
+## Perfil
 
-- 📚 Actualmente: **Conceptos Avanzados de Bases de Datos** + **Sistemas en Tiempo Real**
-- 🧠 Intereses: **backend**, **bases de datos**, **arquitectura**, **optimización** y **sistemas**
-- 🛠️ Me gusta construir proyectos “end‑to‑end”: UI → lógica → persistencia → deploy
-- 🤝 Abierto a colaborar en **Open Source** (issues, features, documentación)
+Soy estudiante de Ingeniería en Computación y desarrollo proyectos que me permitan practicar **arquitectura**, **modelado de datos**, **seguridad** y **construcción de sistemas**. Mantengo mis repos con buena estructura y README claros para que se puedan entender y reproducir.
+
+Actualmente cursando: **Conceptos Avanzados de Bases de Datos** y **Sistemas en Tiempo Real**.
 
 ---
 
-## Habilidades 
+## Áreas de interés
 
-### Desarrollo Web
-- **React** (CRA), **React Router**
-- **Firebase**: Auth + Realtime Database + Cloud Functions
-- UI: **TailwindCSS**, **MUI**, **Leaflet** (mapas)
+- Backend y diseño de APIs
+- Bases de datos y modelado (SQL, consistencia, performance)
+- Seguridad aplicada (auth, hardening, rate limiting)
+- Arquitectura de computadoras y diseño digital
+
+---
+
+## Stack (resumen)
+
+### Software / Web
+- Frontend: **React (CRA)**, **React Router**
+- UI: **TailwindCSS**, **MUI**
+- Mapas: **Leaflet / React-Leaflet**
+- Cloud: **Firebase** (Auth, Realtime Database, Cloud Functions)
 
 ### Backend & Seguridad
-- **Node.js + Express**
+- **Node.js**, **Express**
 - Auth: **JWT**
-- Seguridad: **Helmet**, **Rate Limiting**, **CORS**, manejo de secretos con `.env`
+- Seguridad: **Helmet**, **CORS**, **Rate limiting**
+- Configuración: `.env` y separación de entornos
 
 ### Bases de Datos
-- **PostgreSQL** (conexión SSL en prod)
-- **SQLite** (persistencia en apps Java)
+- **PostgreSQL** (incluyendo conexión **SSL** en producción)
+- **SQLite** (persistencia local en Java)
 
-### Ingeniería de Software (señales fuertes)
-- **Diseño por roles**, flujos de negocio, modelo de datos
-- Patrones: **MVC / DAO / Singleton** (proyecto Java)
-- Experiencia documentando (README completos, estructura, capturas)
+### Sistemas / Arquitectura
+- **VHDL**, **Quartus**
+- **Assembly**
+- **C (C11)**
 
 ---
 
 ## Proyectos destacados
 
-### 1) G2 Innovation — Plataforma web (React + Firebase)
+### 1) G2 Innovation — Plataforma web por roles (React + Firebase)
 - Repo: https://github.com/MatiasLopezING/G2_INNOVATION  
-- Qué muestra: **sistema por roles (Usuario/Farmacia/Distribuidor)**, Auth, RTDB, Cloud Functions, UI moderna con Tailwind/MUI y mapas con Leaflet.
+- Stack: React, Tailwind/MUI, Leaflet | Firebase Auth/RTDB/Cloud Functions  
+- Enfoque: roles (Usuario/Farmacia/Distribuidor), flujos completos, integración cloud, UI clara.
 
 ### 2) Reparaciones Enlaces Comunicaciones — Sistema web seguro (Node + PostgreSQL)
 - Repo: https://github.com/MatiasLopezING/Reparaciones-EnlacesComunicaciones  
-- Qué muestra: **login JWT**, **PostgreSQL**, seguridad (Helmet/rate‑limit), reportes y deploy (Render), más un README muy completo con estructura y capturas.
+- Stack: Node.js, Express, JWT | PostgreSQL | Helmet + rate limiting  
+- Enfoque: autenticación, seguridad aplicada, workflow de estados, reportes y documentación.
 
-### 3) CryptoWallet (Java) — Wallet con persistencia y patrones
+### 3) CryptoWallet (Java) — Persistencia y arquitectura por capas
 - Repo: https://github.com/MatiasLopezING/CryptoWallet-Java  
-- Qué muestra: **Java + SQLite**, arquitectura por capas/patrones (**MVC/DAO/Singleton**), manejo de errores y estructura grande (modelo/vista/controladores).
+- Stack: Java + SQLite  
+- Enfoque: patrones (MVC/DAO/Singleton), estructura por capas, manejo de errores.
 
-### 4) Arch Linux Theme — Customización y tooling
+### 4) Introducción al Diseño Lógico — Implementaciones (C + Quartus)
+- Repo: https://github.com/MatiasLopezING/introduccion-diseno-logico  
+- Stack: C (C11), Intel Quartus, VHDL/Verilog (aux), simulación  
+- Enfoque: implementaciones prácticas (punto fijo, FSM, verificación), repo prolijo y reproducible.
+
+### 5) Taller de Arquitectura — VHDL + Assembly (TDA 1819)
+- Repo: https://github.com/MatiasLopezING/TallerDeArquitectura  
+- Stack: VHDL + Assembly  
+- Enfoque: diseño y testbench; extensión de procesador con soporte de stack (push/pop) y tests en ASM.
+
+### 6) Arch Linux Theme — Documentación y tooling en Linux
 - Repo: https://github.com/MatiasLopezING/arch-linux-theme  
-- Qué muestra: documentación paso a paso, configuración y experiencia práctica en Linux.
+- Enfoque: guía paso a paso y configuración en entorno Linux.
 
 ---
 
-## Actividad
+## Links
 
-- Perfil: https://github.com/MatiasLopezING
-- Repositorios: https://github.com/MatiasLopezING?tab=repositories
-
----
-
-## Contacto
+- GitHub: https://github.com/MatiasLopezING  
+- Repositorios: https://github.com/MatiasLopezING?tab=repositories&sort=updated  
 - LinkedIn: https://www.linkedin.com/in/ingmatiaslopez/
-- GitHub: https://github.com/MatiasLopezING
 
 <!-- ===========================
          FOOTER
