@@ -74,24 +74,45 @@ trabajo (31 págs.), la **derivación matemática completa de XGBoost** —pérd
 Taylor de segundo orden, Similarity Score, ganancia y poda— y el pipeline ejecutado con todas
 las salidas guardadas.
 
+Durante la práctica armé además un tablero web para comparar modelos en vivo
+([`solar-web`](https://github.com/MatiasLopezING/solar-web)), que quedó fuera de la entrega final.
+
 `Python` · `XGBoost` · `scikit-learn` · `scikit-optimize` · `SHAP` · `pandas` · `NumPy`
 
-### Dashboard de comparación de modelos de inferencia solar
+### Minería de datos — perfiles de combate y predicción de resultados en UFC
 
-**[`solar-web`](https://github.com/MatiasLopezING/solar-web)** · LEICI
+**[`Mineria-de-Datos-usando-Sistemas-Inteligentes`](https://github.com/MatiasLopezING/Mineria-de-Datos-usando-Sistemas-Inteligentes)**
+→ [`entrega_final/`](https://github.com/MatiasLopezING/Mineria-de-Datos-usando-Sistemas-Inteligentes/tree/main/entrega_final)
 
-Front end para comparar en tiempo real las predicciones de distintos modelos de inferencia
-climática solar (GHI y K<sub>t</sub>) contra los datos medidos. Gráficos con zoom y
-desplazamiento, cambio de modelo y de magnitud en vivo, publicado por GitHub Pages contra una
-API expuesta mediante túnel.
+Trabajo final de la materia sobre **8.337 peleas y 124 variables** relevadas de ufcstats.com
+entre 1994 y 2025. El preprocesamiento descartó las peleas anteriores a 2010 y las femeninas
+—por ruido y por desbalance— y dejó 6.207 registros utilizables tras el análisis de faltantes.
 
-`JavaScript` · `Chart.js` · `GitHub Actions` · `Cloudflare Tunnel`
+**Aprendizaje no supervisado.** Agrupamiento por K-medias sobre tres miradas distintas del
+mismo peleador: la matriz ofensa × defensa cruzada con pie × suelo, el perfil de striking puro
+y el perfil de riesgo o intercambio de daño. Número de grupos elegido con codo y silueta,
+visualización por PCA. El hallazgo principal es contraintuitivo: **lo que separa a los
+peleadores por nivel no es el volumen de ataque sino la capacidad defensiva** —evitar golpes y
+derribos—, no la cantidad de golpes que tiran.
 
-### Minería de datos — análisis de combates de UFC
+**Aprendizaje supervisado.** Predicción del ganador antes de la pelea, contra la línea base de
+ZeroR (58,42 %, la clase mayoritaria):
 
-Trabajo final de la materia: estudio en profundidad de peleas de UFC, con informe extenso
-sobre preparación del dato, análisis exploratorio, modelado y discusión de resultados.
-*Materia aprobada; el repositorio está en preparación.*
+| Modelo | Accuracy (test) | F1 (azul / rojo) |
+|---|---|---|
+| ZeroR (baseline) | 58,42 % | 0 % / 74 % |
+| Naïve Bayes gaussiano | 65,00 % | 56 % / 71 % |
+| Árbol de decisión (entropía) | 65,74 % | 61 % / 61 % |
+
+El árbol se eligió por interpretabilidad —da reglas legibles sobre qué atributo inclina una
+pelea— y Naïve Bayes como referencia rápida. Las **reglas de asociación** cierran el trabajo
+traduciendo los patrones a lenguaje natural: ciertas combinaciones de ventajas, como sostener
+una racha y dominar el intercambio de golpes, elevan sustancialmente la probabilidad de
+victoria.
+
+Informe completo en LaTeX. Trabajo grupal con Isidro Silicaro Pera y Taciano Pacchialat.
+
+`Python` · `scikit-learn` · `pandas` · `K-means` · `PCA` · `árboles de decisión` · `reglas de asociación` · `LaTeX`
 
 ### En curso
 
